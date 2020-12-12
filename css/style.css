@@ -1,0 +1,246 @@
+ 
+
+
+  .main { 
+
+      background: #fff3e0; 
+      border-radius: 4px; 
+      border:solid 1px black;
+      margin-top: 6px; 
+      font-size: 16px; 
+      margin-right: 8px;
+      margin-left: 8px;
+
+  }  
+
+
+
+  h1 {
+
+  	   font-family: 'Muli', sans-serif; 
+  	   font-size: 30px; 
+  	   margin-left: 20px; 
+  	     
+  }  
+
+ 
+     /* clase para titulos principales*/
+  .principal{
+
+  	color:#546e7a;
+  	text-align: justify;
+  	padding: 14px;
+  	margin-bottom: 10px; 
+  }  
+
+
+
+	p {
+	 
+     width: 70%; 
+     margin-left: 20px; 
+
+	font-family: 'Quicksand', sans-serif;
+	color: #263238;
+
+	  
+	}  
+
+	h3{
+        width: 70%; 
+        margin-left: 20px; 
+
+	}
+
+
+
+	.barra {
+
+     border-radius: 4px; 
+	border:solid 1px black;
+	margin-right: 8px;
+    margin-left: 8px; 
+    margin-top: 8px;  
+
+	}
+
+
+
+nav ul{
+	 float: right;
+}  
+
+
+nav ul li{ 
+
+     margin-top: 30px; 
+	display: inline-block;
+}   
+
+
+nav ul li a{ 
+
+	 border:solid 2px black; 
+	 border-radius: 4px;
+	 padding: 10px;
+	 text-decoration: none; 
+	 margin-left: 12px; 
+	 margin-right: 12px; 
+}
+    
+      
+
+
+      
+
+nav ul li a{  
+
+
+ font-family: 'Muli', sans-serif;
+ border:solid 2px black; 
+ border-radius: 4px;
+ padding: 10px;
+ text-decoration: none; 
+ margin-left: 12px; 
+ margin-right: 12px; 
+
+
+}
+
+
+nav ul li a:hover{
+
+   color: black;
+   background: white; 
+} 
+
+
+.col-md-4{
+
+	text-align: center;
+
+} 
+
+.centrado{
+
+	text-align: center; 
+    padding: 40px; 
+} 
+
+.title{
+
+	font-size: 50px; 
+	color:#4db6ac;
+	margin-left: 60px; 
+
+} 
+
+.pciture{
+
+	width: 90px; 
+	 
+
+} 
+
+footer{
+
+	background: #b2dfdb; 
+
+} 
+
+.card-text{
+
+	color: white;   
+	 
+} 
+
+
+
+.modales{
+
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) scale(0);
+ transition: 200ms ease-in-out;
+ border: 1px solid black; 
+ border-radius: 10px;
+ z-index:10;
+ background-color: white;
+ width: 500px;
+ max-width: 80%;
+ 
+
+} 
+
+.modales.active{
+
+   transform: translate(-50%, -50%) scale(1);
+}
+
+
+.modales-header{
+
+    padding: 10px 15px; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: 1px solid black;
+
+} 
+
+.modales-header .titulo{
+
+   font-size: 1.25rem;
+   font-weight: bold; 
+
+}
+.modales-header .cerrar-button{
+
+   cursor: pointer;
+   border: none; 
+   outline: none; 
+   background: none;
+   font: 1.25rem; 
+} 
+
+.modales-body{
+
+   padding: 10px 15px; 
+} 
+
+
+#overlay{
+  
+    position: fixed;
+   opacity:0;
+   transition: 200ms ease-in-out;
+   top:0;
+   bottom:0;
+   right:0;
+   left:0;
+   background-color: rgba(0,0,0, .5);
+   pointer-events: none;
+
+} 
+
+#overlay.active{
+   
+   opacity: 1; 
+   pointer-events: all;
+   
+
+} 
+
+.Neumann{
+
+	width: 600px; 
+	padding: 20px; 
+	margin-bottom: 30px; 
+	margin-right: 60px;
+	}
+
+
+
+
+
